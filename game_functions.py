@@ -95,6 +95,7 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
 
     else:
         stats.game_active = False
+        pygame.mouse.set_visible(True)
                 
 def update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button):
     """更新屏幕上的图像，并切换到新屏幕"""
