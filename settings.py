@@ -23,6 +23,6 @@ class Settings():
         #外星人设置
         self.alien_speed_factor = 1
         #fleet_drop_speed指定了有外星人撞到屏幕边缘时，外星人向下移动的速度
-        self.fleet_drop_speed = 10
+        self.fleet_drop_speed = 200
         #fleet_direction为1表示向右移，为-1表示向左移
         self.fleet_direction = 1
